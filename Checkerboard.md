@@ -14,13 +14,13 @@ This retrospective is reflecting on the work I did and compare it to the solutio
 4. How well does your solution match the posted solution? What is different?
   *  My solution mostly matches the teachers solution with the exception of a few things: 
       1. I initialized my Rectangles like this:
-             Rectangle rectangle = new Rectangle(col * rectangleWidth, row * rectangleHeight, rectangleWidth, rectangleHeight);
+               Rectangle rectangle = new Rectangle(col * rectangleWidth, row * rectangleHeight, rectangleWidth, rectangleHeight);
          Dale initialized his like this: 
-             Rectangle square = new Rectangle();
-                square.setWidth(squareWidth);
-                square.setHeight(squareHeight);
-                square.setX(squareWidth * col);
-                square.setY(squareHeight * row);
+               Rectangle square = new Rectangle();
+                   square.setWidth(squareWidth);
+                   square.setHeight(squareHeight);
+                  square.setX(squareWidth * col);
+                  square.setY(squareHeight * row);
       
       2. Dale created a function called renderBoard() that initialized the boardwidth and height and created the checkers while I 
           initialized it inside the lambda change listener.
