@@ -18,13 +18,13 @@ This retrospective is reflecting on the work I did and compare it to the solutio
             Rectangle rectangle = new Rectangle(col * rectangleWidth, row * rectangleHeight, 
             rectangleWidth, rectangleHeight);
            
-      Dale initialized his like this: 
+         Dale initialized his like this: 
                
-               Rectangle square = new Rectangle();
-                   square.setWidth(squareWidth);
-                   square.setHeight(squareHeight);
-                   square.setX(squareWidth * col);
-                   square.setY(squareHeight * row);
+                   Rectangle square = new Rectangle();
+                       square.setWidth(squareWidth);
+                       square.setHeight(squareHeight);
+                       square.setX(squareWidth * col);
+                       square.setY(squareHeight * row);
      
      2. Dale created a function called renderBoard() that initialized the boardwidth and height and created the checkers while I 
           initialized it inside the lambda change listener.
