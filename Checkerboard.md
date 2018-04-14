@@ -5,14 +5,14 @@ This retrospective is reflecting on the work I did and compare it to the solutio
    *  I think I did well but I did not do perfect. The main thing I did wrong was creating instances of the Checkerboard class outside of the refresh function. I correctly created the checkerboard and it worked as it was supposed to. 
 
 2. How well did you understand the programming concepts and foundational knowledge needed to complete the challenge?
-  *  I believe that I understand the programming concepts and knowledge needed to complete the challenge. 
+*  I believe that I understand the programming concepts and knowledge needed to complete the challenge. 
 
 3. How well did you meet the requirements as set out in the challenge? What requirements did you not meet correctly (if any)?
-  *  I met all of the requirements. But one problem in my code is when I change the color of board and then try to make it bigger, 
+*  I met all of the requirements. But one problem in my code is when I change the color of board and then try to make it bigger, 
      the bottom of the board does not resize and it looks funky. 
 
 4. How well does your solution match the posted solution? What is different?
-  *  My solution mostly matches the teachers solution with the exception of a few things: 
+*  My solution mostly matches the teachers solution with the exception of a few things: 
       1. I initialized my Rectangles like this:
                Rectangle rectangle = new Rectangle(col * rectangleWidth, row * rectangleHeight, rectangleWidth, rectangleHeight);
          Dale initialized his like this: 
