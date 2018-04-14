@@ -30,8 +30,10 @@ This retrospective is reflecting on the work I did and compare it to the solutio
           initialized it inside the lambda change listener.
        
       3. When I would change the size of the board or the colors, I would completely create a new checkerboard by calling:
-          checkerboard = new Checkerboard(checkerboard.getNumRows(), checkerboard.getNumCols(), checkerboard.getWidth(), 
-          checkerboard.getHeight(), Color.SKYBLUE, Color.DARKBLUE);
+                
+             checkerboard = new Checkerboard(checkerboard.getNumRows(), checkerboard.getNumCols(), checkerboard.getWidth(), 
+             checkerboard.getHeight(), Color.SKYBLUE, Color.DARKBLUE);
+          
           While Dale did it by updating just the thing he was changing i.e. the color of the checkers and called renderBoard() each time 
           somethigin was changed using the lambda change listener.
 
