@@ -22,6 +22,7 @@ This retrospective is reflecting on the work I did and compare it to the solutio
                   square.setX(squareWidth * col);
                   square.setY(squareHeight * row);
       
+            Rectangle rectangle = new Rectangle(col * rectangleWidth, row * rectangleHeight, rectangleWidth, rectangleHeight);
             2. Dale created a function called renderBoard() that initialized the boardwidth and height and created the checkers while I 
           initialized it inside the lambda change listener.
        
