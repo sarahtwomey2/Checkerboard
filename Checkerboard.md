@@ -29,7 +29,7 @@ This retrospective is reflecting on the work I did and compare it to the solutio
      2. Dale created a function called renderBoard() that initialized the boardwidth and height and created the checkers while I 
           initialized it inside the lambda change listener.
        
-            3. When I would change the size of the board or the colors, I would completely create a new checkerboard by calling:
+      3. When I would change the size of the board or the colors, I would completely create a new checkerboard by calling:
           checkerboard = new Checkerboard(checkerboard.getNumRows(), checkerboard.getNumCols(), checkerboard.getWidth(), 
           checkerboard.getHeight(), Color.SKYBLUE, Color.DARKBLUE);
           While Dale did it by updating just the thing he was changing i.e. the color of the checkers and called renderBoard() each time 
@@ -37,5 +37,5 @@ This retrospective is reflecting on the work I did and compare it to the solutio
 
 
 5. How could you improve going forward? What don't you still understand that was required for the challenge?
-*  to improve going forward I am going to focus on the way I use functions and classes. Creating a function to create the checkerboard that is called whenever a change occurs makes much more sense than calling the class each time a change occurs. I understand everything that was required for the challenge. 
+   *  to improve going forward I am going to focus on the way I use functions and classes. Creating a function to create the checkerboard that is called whenever a change occurs makes much more sense than calling the class each time a change occurs. I understand everything that was required for the challenge. 
 
