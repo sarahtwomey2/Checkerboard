@@ -4,6 +4,7 @@ This retrospective is reflecting on the work I did and compare it to the solutio
    What did you do differently (and possibly better) than what was posted in the solution? What was hard to do?
    *  I think I did well but I did not do perfect. The main thing I did wrong was creating instances of the Checkerboard class outside of the refresh function. I correctly created the checkerboard and it worked as it was supposed to. 
    *  Things I got right: class set up, MVC design, use of functions
+   *  I had a hard time understanding how to implement the Checkerboard class, I did not implement it the same way that Dale did.
 
 2. How well did you understand the programming concepts and foundational knowledge needed to complete the challenge?
    *  I believe that I understand the programming concepts and knowledge needed to complete the challenge. 
