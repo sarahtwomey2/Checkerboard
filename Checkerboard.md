@@ -3,6 +3,7 @@ This retrospective is reflecting on the work I did and compare it to the solutio
 1. Reflect on (think about) the work you did for the challenge. How did you do? What did you get right? What did you get wrong? 
    What did you do differently (and possibly better) than what was posted in the solution? What was hard to do?
    *  I think I did well but I did not do perfect. The main thing I did wrong was creating instances of the Checkerboard class outside of the refresh function. I correctly created the checkerboard and it worked as it was supposed to. 
+   *  Things I got right: class set up, MVC design, use of functions
 
 2. How well did you understand the programming concepts and foundational knowledge needed to complete the challenge?
    *  I believe that I understand the programming concepts and knowledge needed to complete the challenge. 
