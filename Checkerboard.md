@@ -1,3 +1,8 @@
+Sarah Twomey
+CS4330
+
+
+
 This retrospective is reflecting on the work I did and compare it to the solution.
 
 1. Reflect on (think about) the work you did for the challenge. How did you do? What did you get right? What did you get wrong? 
